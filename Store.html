@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Store.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/store.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/img/ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/ico/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/ico/apple-icon-72x72.png">
@@ -24,14 +25,23 @@
     <title>Cờ Tướng Ông Hùng</title>
   </head>
   <body>
-    <h1 id="tieude">Cờ Tướng Ông Hùng</h1>
-    <h3>- Nâng tầm kỳ nghệ -</h3>
-    <hr />
-    <pre>
-      <a href="/index.html"><strong>Trang chủ</strong></a>   <a href="/About.html"><strong>Về chúng tôi</strong></a>   <a href="/Courses.html"><strong>Khóa học</strong></a>   <a href="/Store.html"><strong>Cửa hàng</strong></a>   <a href="/Contact.html"><strong>Tin tức</strong></a>
-    </pre>
-    <hr />
-    <br />
+   <div id="header">
+    <nav class="container">
+      <a href="/index.html" id="logo"><img src="/img/Logo.png" alt="cotuongonghung.vn"></a>
+      <ul id="main-menu">
+        <li><a href="">Về chúng tôi</a>
+        <ul class="sub-menu">
+          <li>menu 1</li>
+          <li>menu 2</li>
+          <li>menu 3</li>
+        </ul>
+        </li>
+        <li><a href="/courses.html">Khóa học</a></li>
+        <li><a href="/store.html">Cửa hàng</a></li>
+        <li><a href="/contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+   </div>
     <br />
     <p>
       Cờ Tướng Ông Hùng cung cấp các thiết bị tập luyện đúng quy chuẩn, cập nhật

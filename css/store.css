@@ -1,0 +1,40 @@
+#header {
+  background-color: black;
+  max-height: max-content;
+}
+#logo {
+  display: flex;
+}
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#logo img {
+  max-width: 50px;
+  height: 50px;
+}
+#main-menu {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main-menu li {
+  position: relative;
+}
+#main-menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 18px 20px;
+  color: aliceblue;
+}
+#main-menu ul.sub-menu {
+  position: absolute;
+  background-color: aliceblue;
+}
